@@ -1,0 +1,129 @@
+*{margin:0;padding:0}
+body{font-family:Georgia, 'Times New Roman', Times, serif !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;}
+body, html{height:100%;}
+img{max-width:100%}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+h1, h2, h3, h4, h5, h6{font-weight:normal;margin-top:10px;margin-bottom:10px}
+p{line-height: 150%;margin-bottom: 2em;}
+.container_full {width: 100%; height: auto;}
+.container {width:960px; margin:0 auto; display:block }
+.fix{overflow:hidden;}
+.aligncenter{display:block;margin:0 auto;}
+.floatleft{float:left}
+.floatright{float:right}
+/**start **/
+
+/* start header sectiion */
+.header-full-bg{
+    background-image: url(images/pexels-photo-910411.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-section img{
+    width: 131px;
+    height: auto;
+}
+.menu-list{
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 2.5em;
+    padding: 31px 0px;
+}
+.menu-section ul li{
+    list-style-type: none;
+}
+.menu-section ul li a{
+    text-decoration:none;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.slide-section{
+    height: 600px;
+}
+.slide-info{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    left: 24%;
+}
+
+.location .fas{
+    font-size: 100px;
+    color: #FF7D5D;
+}
+.location h2{
+    font-size: 50px;
+    font-family: 'Bona Nova', serif;
+}
+.location p{
+    font-size: 16px;
+}
+
+
+.downlode h2{
+    font-size: 18px;
+}
+.downlode .far{
+    font-size: 30px;
+    color:#FF7D5D;
+}  
+/* end header sectiion */
+
+/* start what we do */
+
+.what-we-do-bg{
+    background-color: #FF7D5D;
+    margin-top: -10px;
+    min-height: 300px;
+}
+.what-we-do h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 93px 0px;
+    color: #fff;
+}
+
+/* what-we-do-list */
+
+.what-we-do-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    top: -101px;
+}
+.list-all img{
+    background-color: #FF7D5D;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    width: 60%;
+    padding: 5px;
+}
+.list-all h1{
+    font-size: 30px;
+}
+.list-all p{
+    font-size: 15px;
+}
+.list-all button{
+    padding: 7px 20px;
+    border: none;
+    border-radius: 7px;
+    background: #aeacac;
+}
+.list-all button a{
+    color: #fff;
+    font-size: 15px;
+}
